@@ -47,8 +47,18 @@ alreafy discussed.
 
 
 lec 17. RegExp
+    const pattern= /hello/;
+    const text= 'hello world';
+    console.log(pattern.test(text));
+// this will return true. 
+
+const vowels= /[aeiou]/;
+const matching= 'hello there, this is a demo';
+console.log(matching.match(vowels));
+//this is used to check each letter separately. 
 
 lec 18.Scope
+already discussed.
 
 lec 19.Strict Mode
 
