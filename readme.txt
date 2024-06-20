@@ -70,6 +70,24 @@ how to make code more readable and easily accessible.
 
 lec 21.Class Inheritance
 concept of inheritance.
+class Animal {
+    constructor(name) {
+        this.name=name;
+    }
+    makesound(){
+        console.log(`${this.name} make a generic sound`);
+    }
+}
+
+class Cat extends Animal {
+    makesound() {
+        console.log(`${this.name} says meow`);
+    }
+}
+
+const myCat= new Cat('Whiskers');
+myCat.makesound();
+
 
 lec 22. Static Method
 make method in one class and access it in second class.
