@@ -60,10 +60,16 @@ console.log(matching.match(vowels));
 lec 18.Scope
 already discussed.
 
+
 lec 19.Strict Mode
+strict mode helps in catching common errors and prevent use of some unsafe features. it is set of rules that make
+code more robust.
 
 lec 20.Style Guide
+how to make code more readable and easily accessible.
 
 lec 21.Class Inheritance
+concept of inheritance.
 
 lec 22. Static Method
+make method in one class and access it in second class.
